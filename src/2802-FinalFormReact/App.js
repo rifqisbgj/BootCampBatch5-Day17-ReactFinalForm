@@ -21,6 +21,7 @@ const App = () => {
             yang berfungsi memberikan aksi setelah inputan disubmit
             */
             onSubmit={onSubmit}
+            initialValues={{ employed: false }}
             // bersifat optional untuk meneruskan value comp ke form melewati handleSubmit
             // submitting bernilai true, jika form diproses dengan async
             /* pristine akan true, jika value pada form masih bernilai sesuai dengan initialValue, 
